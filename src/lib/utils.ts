@@ -12,8 +12,8 @@ export function classNames(...classes: any) {
 
 
 export const getBaseUrl = () => {
-  if (process.env.NEXT_PUBLIC_APP_URL) {
-    return process.env.NEXT_PUBLIC_APP_URL;
+  if (process.env.NEXT_PUBLIC_PUBLIC_URL) {
+    return process.env.NEXT_PUBLIC_PUBLIC_URL;
   }
 
   if (process.env.VERCEL_URL) {
