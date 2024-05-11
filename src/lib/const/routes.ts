@@ -9,6 +9,7 @@ export const ROUTES = {
     PASSWORD_SIGNUP: "/auth/sign-up",
     PASSWORD_EMAIL_CONFIRM_ROUTE_HANDLER: "/auth/confirm",
 
+
     APP_HOME: "/app/home",
     APP_FEATURE_ROUTE_1: "/app/feature",
     APP_FEATURE_ROUTE_2: "/app/feature2",
