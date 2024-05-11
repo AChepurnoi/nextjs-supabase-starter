@@ -3,6 +3,8 @@
 Boilerplate and Starter for Next.js (App Router) with Supabase, Typescript and Tailwind CSS.
 
 
+👉 Demo link: https://nextjs-starter.chepu.tech/
+
 ### Features
 * Next.js with App Router support
 * Tailwind CSS + Shadcn components + Theme support
