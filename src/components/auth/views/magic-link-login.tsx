@@ -16,10 +16,12 @@ export const MagicLinkLogin = () => {
         const envs = createPublicEnvs()
         if (data.email) {
             setLoading(true)
+            const redirectUrl = envs.PUBLIC_URL + ROUTES.MAGIC_LINK_ROUTE_HANDLER
+            console.log("Redirect URL", redirectUrl)
             const res = await client.auth.signInWithOtp({
                 email: data.email,
                 options: {
-                    emailRedirectTo: envs.PUBLIC_URL + ROUTES.MAGIC_LINK_ROUTE_HANDLER,
+                    emailRedirectTo: redirectUrl,
                     shouldCreateUser: true
                 },
             })
